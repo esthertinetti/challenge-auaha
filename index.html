@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Challenge Auaha</title>
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/carousel.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <!-- Input de busca -->
+    <div class="container-header">
+      <div class="container-search">
+        <div class="input-search">
+          <input type="search" placeholder="O que deseja encontrar?">
+          <button class="botao"><img src="./assets/images/709592.png" alt="Search"></button>
+          </input>
+        </div>
+        <!-- Dropdown -->
+        <div class="dropdown-search">
+          <p>Sugestões</p>
+          <div class="category">
+            <a href="#">
+              <p>Brinco</p>
+            </a>
+            <a href="#">
+              <p>Brinco Prata</p>
+            </a>
+            <a href="#">
+              <p>Brinco Ouro</p>
+            </a>
+          </div>
+          <div class="produtos">
+            <img src="./assets/images/anel.png" alt="anel">
+            <a href="#">
+              <p>Anel Banhado Ouro Reto Com Zirconia</p>
+            </a>
+          </div>
+          <div class="produtos">
+            <img src="./assets/images/brinco.png" alt="anel">
+            <a href="#">
+              <p>Anel Banhado Ouro Reto Com Zirconia</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/images/logo.png" alt="Logo Auaha" id="logo">
+      <div class="perfil">
+        <img src="./assets/images/Minha Conta.png" alt="Perfil" id="profile">
+        <div class="dropdown-perfil">
+          <div class="a-perfil">
+            <ul>
+              <li><a href="#">Entrar</a></li>
+              <li><a href="#">Cadastrar</a></li>
+            </ul>
+          </div>
+          <div class="a-info">
+            <ul>
+              <li id="one"><a href="#">Meus pedidos</a></li>
+              <li><a href="#">Minha conta</a></li>
+              <li><a href="#">Sair</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-contact">
+        <img src="./assets/images/icon-tel.png" alt="Contato">
+        <span id="telephone">(99) 99999-9999</span>
+      </div>
+      <div class="container-bag">
+        <img src="./assets/images/minicart.png" alt="Sacola de compra" id="bag">
+        <div class="dropdown-bag">
+          <div class="item">
+            <img src="./assets/images/anel.png" alt="Brinco1">
+            <div class="p-text">
+              <p>Anel Banhado Ouro Reto Com Zirconia</p>
+              <p style="color: #999;">Qtd. 1
+                <strong style="color: #222; margin-left: 15px;">R$ 188,00</strong>
+              </p>
+            </div>
+            <button>
+              <img src="./assets/images/1828778.png" alt="retirar">
+            </button>
+          </div>
+          <div class="item">
+            <img src="./assets/images/brinco.png" alt="Brinco1">
+            <div class="p-text">
+              <p>Anel Banhado Ouro Reto Com Zirconia</p>
+              <p style="color: #999;">Qtd. 1
+                <strong style="color: #222; margin-left: 15px;">R$ 188,00</strong>
+              </p>
+            </div>
+            <button>
+              <img src="./assets/images/1828778.png" alt="retirar">
+            </button>
+          </div>
+          <div class="item">
+            <img src="./assets/images/brinco1.png" alt="Brinco1">
+            <div class="p-text">
+              <p>Anel Banhado Ouro Reto Com Zirconia</p>
+              <p style="color: #999;">Qtd. 1
+                <strong style="color: #222; margin-left: 1px;">R$ 188,00</strong>
+              </p>
+            </div>
+            <button>
+              <img src="./assets/images/1828778.png" alt="retirar">
+            </button>
+          </div>
+          <div class="finalizar">
+            <p style="color: #999;">Subtotal
+              <strong style="color: #222; margin-left: 10px;">R$ 574,00</strong>
+            </p>
+            <button>Finalizar compra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu -->
+    <nav class="container-navbar">
+      <ul>
+        <li class="ring"><a href="#">Anéis</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+        <li class="ring"><a href="#">Brincos</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+        <li class="ring"><a href="#">Colares</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+        <li class="ring"><a href="#">Pingentes</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+        <li class="ring"><a href="#">Pulseiras</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+        <li class="ring"><a href="#">Kits</a></li>
+        <div class="dropdown-navbar">
+          <div class="container-op">
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Folheado</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Prata</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="opcoes">
+              <ul>
+                <li><a href="#"><strong>Ouro</strong></a></li>
+                <li><a href="#">Anel</a></li>
+                <li><a href="#">Solitária</a></li>
+                <li><a href="#">Cristal</a></li>
+                <li><a href="#">Pérola</a></li>
+                <li><a href="#">Zircônia</a></li>
+              </ul>
+            </div>
+            <div class="image-example">
+              <li>
+                <img src="./assets/images/example-ring.png" alt="example">
+              </li>
+              <li>
+                <p>Ilustrativo - 420x330 pixels</p>
+              </li>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <!-- Carrossel -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./assets/images/Grupo de máscara 2.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="./assets/images/Grupo de máscara 2.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="./assets/images/Grupo de máscara 2.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="container-dot" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!-- Informações -->
+    <div class="container-info">
+      <div class="frete">
+        <img src="./assets/images/icon-box.png" alt="box">
+        <span>
+          <strong>Frete grátis </strong>
+          nas compras acima de R$ 299,00
+        </span>
+      </div>
+      <div class="cartao">
+        <img src="./assets/images/icone.png" alt="card">
+        <span>
+          <strong>6 vezes sem juros</strong>
+          no cartão de crédito
+        </span>
+      </div>
+    </div>
+    <!-- Mais produtos -->
+    <div class="container-products">
+      <div class="jewelry">
+        <div class="adornment">
+          <img src="./assets/images/aneis.png" alt="">
+          <span>ANÉIS</span>
+        </div>
+        <div class="adornment">
+          <img src="./assets/images/pingentes.png" alt="">
+          <span>PINGENTES</span>
+        </div>
+      </div>
+      <div class="jewelry">
+        <div class="adornment">
+          <img src="./assets/images/brincos.png" alt="">
+          <span>BRINCOS</span>
+        </div>
+        <div class="adornment">
+          <img src="./assets/images/pulseiras.png" alt="">
+          <span>PULSEIRAS</span>
+        </div>
+      </div>
+      <div class="jewelry">
+        <div class="necklace">
+          <img src="./assets/images/colares.png" alt="">
+          <span>COLARES</span>
+        </div>
+      </div>
+    </div>
+    <!-- carrossel promoções -->
+    <div class="container-sale">
+      <h2>PROMOÇÕES</h2>
+    </div>
+    <div class="slideshow-container-sale">
+      <div class="slide-sale fade">
+        <div class="two-item">
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 13.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="de">De R$188,00</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 14.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="two-item">
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 15.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 16.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="de">De R$188,00</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide-sale fade">
+        <div class="two-item">
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 13.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="de">De R$188,00</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 14.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="two-item">
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 15.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+          <div class="container-slide">
+            <div class="images-sale">
+              <img src="./assets/images/image 16.png">
+              <span>Anel Banhado Ouro Reto Com Zirconia</span>
+              <span class="de">De R$188,00</span>
+              <span class="por"><strong>Por R$188,00</strong></span>
+              <span class="parcela">6x de R$ 31,33 sem juros</span>
+            </div>
+            <div class="emerge">
+              <button>
+                <img src="./assets/images/1656850.png" alt="">
+                Adicionar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="prev-sale" onclick="pSlides(-1)">&#10094;</a>
+      <a class="next-sale" onclick="pSlides(1)">&#10095;</a>
+      <div class="container-dot-sale" style="text-align:center">
+        <span class="dot-sale" onclick="cSlide(1)"></span>
+        <span class="dot-sale" onclick="cSlide(2)"></span>
+      </div>
+    </div>
+    <!-- Novidades e destaques -->
+    <div class="container-others">
+      <div class="news">
+        <img src="./assets/images/shutterstock_1711317604.png" alt="">
+        <span>Novidades</span>
+      </div>
+      <div class="news">
+        <img src="./assets/images/shutterstock_299967509.png" alt="">
+        <span>Destaques</span>
+      </div>
+    </div>
+    <!-- Feedback clientes -->
+    <div class="title-feedback">
+      <h2>O QUE OS CLIENTES DIZEM</h2>
+    </div>
+    <div class="feedback">
+      <div class="feed-client">
+        <div class="client">
+          <h3>NOME DO CLIENTE</h3>
+          <span class="span1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa enim impedit consectetur, quaerat, illo
+            excepturi doloremque, placeat corporis non et odio adipisci tenetur nemo? Nisi fugit voluptas obcaecati quos
+            placeat!
+          </span>
+          <span>12/10/2020</span>
+        </div>
+      </div>
+      <div class="feed-client">
+        <div class="client">
+          <h3>NOME DO CLIENTE</h3>
+          <span class="span1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa enim impedit consectetur, quaerat, illo
+            excepturi doloremque, placeat corporis non et odio adipisci tenetur nemo? Nisi fugit voluptas obcaecati quos
+            placeat!
+          </span>
+          <span>12/10/2020</span>
+        </div>
+      </div>
+      <div class="feed-client">
+        <div class="client">
+          <h3>NOME DO CLIENTE</h3>
+          <span class="span1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa enim impedit consectetur, quaerat, illo
+            excepturi doloremque, placeat corporis non et odio adipisci tenetur nemo? Nisi fugit voluptas obcaecati
+            quos
+            placeat!
+          </span>
+          <span>12/10/2020</span>
+        </div>
+      </div>
+      </div>
+    <!-- Newsletters -->
+    <div class="newsletters">
+      <h2>RECEBA OFERTAS E NOVIDADES</h2>
+      <span>Cadastre-se e receba nossas novidades e promoções</span>
+      <form class="news-input">
+        <input type="name" placeholder="Seu nome">
+        <input type="email" placeholder="Seu e-mail">
+        <button type="submit">ENVIAR</button>
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="about">
+      <div class="footer-info">
+        <div class="contact">
+          <h4>Contato</h4>
+          <div class="icon">
+            <img src="./assets/images/565589.png" alt="clock">
+            <span>Das 9h às 17h</span>
+          </div>
+          <div class="icon">
+            <img src="./assets//images/1384023.png" alt="whatsapp">
+            <span>(11) 98751-2918</span>
+          </div>
+          <div class="icon">
+            <img src="./assets/images/email.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="institutional">
+          <h4>Institucional</h4>
+          <div class="icon">
+            <span>Trocas e Devoluções</span>
+          </div>
+          <div class="icon">
+            <span>Entregas e Prazos</span>
+          </div>
+          <div class="icon">
+            <span>Blog</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="help">
+          <h4>Ajuda</h4>
+          <div class="icon">
+            <span>Trocas e Devoluções</span>
+          </div>
+          <div class="icon">
+            <span>Entregas e Prazos</span>
+          </div>
+          <div class="icon">
+            <span>Blog</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="payment">
+          <h4>Pagamento</h4>
+          <div class="icon">
+            <img src="./assets/images/Grupo 376.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <div class="social-medias">
+          <h4>Siga-nos</h4>
+          <div class="icon">
+            <img src="./assets/images/Grupo 379.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-final">
+      <span>
+        &copy; SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso prévio -
+        CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX
+      </span>
+      <img src="./assets/images/Logo-auaha.png" alt="">
+    </div>
+  </footer>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

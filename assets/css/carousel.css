@@ -1,0 +1,201 @@
+
+.mySlides, .slide-sale {
+  display: none
+}
+
+.slideshow-container{
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #222;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: transparent;
+}
+
+.next, .next-sale {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.container-dot {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  background-color: transparent;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #222;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .prev-sale, .next, .next-sale,.text {
+    font-size: 11px
+  }
+}
+
+/* CARROSSEL PROMOÇÕES */
+.slideshow-container-sale {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-sale{
+  position: relative;
+  margin: auto;
+}
+.container-slide {
+  display: inline-block;
+}
+
+.images-sale{
+  height: 410px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images-sale span {
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.images-sale .de {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+}
+.images-sale .por {
+  font-size: 18px;
+  margin: 0 auto;
+}
+.images-sale .parcela {
+  font-weight: 500;
+}
+
+.emerge {
+  display: none;
+  position: absolute;
+  min-width: 250px;
+  max-height: 250px;
+
+}
+button {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 16;
+  font-weight: bold;
+}
+
+button img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.container-slide:hover .emerge {
+  display: block;
+}
+
+.prev-sale {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  margin-top: -22px;
+  color: #222;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: transparent;
+  margin-left: 30%;
+}
+
+.next-sale {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #222;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: transparent;
+  margin-right: 15%;
+}
+
+.two-item {
+  display: inline;
+}
+
+@media screen and (max-width: 1400px){
+  .next-sale, .prev-sale {
+    margin: 0;
+  }
+  .two-item {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .two-item {
+    flex-direction: column;
+  }
+}
+

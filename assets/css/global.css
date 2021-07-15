@@ -1,0 +1,45 @@
+* {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  box-sizing: border-box
+}
+
+img {
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+input {
+  padding: 12px 0px 13px 20px ;
+  background-color: #f8f8f8;
+  border-radius: 30px;
+  border: none;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: #999999;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+p, span, strong, h3 {
+  background-color: transparent;
+}
